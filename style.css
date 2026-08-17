@@ -1,15 +1,50 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Global */
 
 body {
     background-color: black;
     color: white;
-    margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* Navigation */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 30px;
+
+}
+
+nav a {
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(187, 182, 182);
+    opacity: 90%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Hero */
 
 #hero {
     display: flex;
@@ -20,8 +55,18 @@ body {
     
 }
 
-nav {
-    display:flex;
-    justify-content: space-between;
-    padding: 25px;
+#hero h1{
+    font-size: 3vw;
+}
+
+#hero p{
+    font-size: 1vw;
+    letter-spacing: 6px;
+
+}
+
+#desc {
+    padding-top: 6px;
+    letter-spacing: 5px;
+    color: rgb(187, 182, 182);
 }
