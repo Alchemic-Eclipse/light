@@ -1,4 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-color: black;
-    color: white
+    color: white;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    padding: 25px;
 }
