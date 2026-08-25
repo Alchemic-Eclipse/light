@@ -1,3 +1,11 @@
+:root {
+    --background: #080808;
+    --text-primary: #FDF4DC;
+    --text-secondary: #E0DCD3;
+    --text-effect: #9C978B;
+    --text-accent: #615E58;
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -7,8 +15,8 @@
 /* Global */
 
 body {
-    background-color: black;
-    color: white;
+    background-color: var(--background);
+    color: var(--text-primary);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -29,13 +37,14 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--text-primary);
     font-size: 1.5vw;
     text-decoration: none;
+    padding: 0px 2px;
 }
 
 nav a:hover {
-    color: rgb(187, 182, 182);
+    color: var(--text-effect);
     opacity: 90%;
 }
 
@@ -59,7 +68,7 @@ nav a:hover {
     font-size: 3vw;
 }
 
-#hero p{
+#hero p{    
     font-size: 1vw;
     letter-spacing: 6px;
 
@@ -68,5 +77,33 @@ nav a:hover {
 #desc {
     padding-top: 6px;
     letter-spacing: 5px;
-    color: rgb(187, 182, 182);
+    color: var(--text-effect);
+} 
+
+/* About */
+
+#about {
+    padding: 140px 2vw;
+}
+
+#about h2 {
+    border-bottom: 1px solid var(--text-accent);
+    padding-bottom: 15px;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    font-weight: bold; 
+}
+
+.about-content{
+    max-width: 1300px;
+    margin-top: 50px;
+}
+
+#about p{
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+#about p + p {
+    margin-top: 25px;
 }
