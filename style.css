@@ -109,11 +109,25 @@ nav a:hover {
     margin-top: 25px;
 }
 
+/* About Signature */
+
+.about-signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+    color: var(--text-effect);
+    font-size: 1vw;
+    letter-spacing: 4px;
+
+}
+
 
 /* Archive */
 
 #archive {
-    padding: 140px 2vw;
+    padding: 130px 2vw 140px 2vw;
 }
 
 .archive-meta {
