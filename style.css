@@ -30,6 +30,7 @@ nav {
 
 
     display:flex;
+    background-color: #08080899;
     justify-content: space-between;
     align-items: center;
     padding: 27px 30px;
@@ -83,7 +84,7 @@ nav a:hover {
 /* About */
  
 #about {
-    padding: 140px 2vw;
+    padding: 120px 2vw;
 }
 
 #about h2 {
@@ -115,6 +116,15 @@ nav a:hover {
     padding: 140px 2vw;
 }
 
+.archive-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    color: var(--text-effect);
+    letter-spacing: 2px;
+    font-size: 0.8vw;
+}
 
 #archive h2 {
     border-bottom: 1px solid var(--text-accent);
@@ -124,21 +134,9 @@ nav a:hover {
     font-weight: bold; 
     }
 
-
-.archive-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px 0;
-    color: var(--text-effect);
-    letter-spacing: 2px;
-    font-size: 0.8vw;
-
-}
-
 .archive-entry {
-    margin-top: 50px;
-    padding-bottom: 60px;
+    margin-top: 35px;
+    padding-bottom: 40px;
     border-bottom: 1px solid var(--text-accent);
 }
 
@@ -152,7 +150,6 @@ nav a:hover {
     letter-spacing: 4px;
     color: var(--text-secondary);
     margin-top: 8px;
-
 }
 
 .archive-tags {
@@ -170,7 +167,7 @@ nav a:hover {
 
 .archive-entry a{
     display: inline-block; /* Necessary to make margin-top work */
-    margin-top: 30px;
+    margin-top: 40px;
     color: var(--text-primary);
     text-decoration: none; /* Rmove the url underline */
     letter-spacing: 2px;
@@ -181,5 +178,5 @@ nav a:hover {
 }
 
 .archive-entry + .archive-entry {  /* Select archive-entry just after archive entry (aka entry 2,3,4 and so on */
-    margin-top: 60px;
+    margin-top: 35px;
 }
