@@ -21,6 +21,11 @@ body {
     font-size: 1.1vw;
 }
 
+::selection {
+    color: white;
+    background-color: #302E2A;
+}
+
 /* Navigation */
 
 nav {
