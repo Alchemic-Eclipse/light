@@ -28,13 +28,11 @@ nav {
     left: 0;
     right: 0;
 
-
     display:flex;
     background-color: #08080899;
     justify-content: space-between;
     align-items: center;
     padding: 27px 30px;
-
 }
 
 nav a {
@@ -62,7 +60,6 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
 }
 
 #hero h1{
@@ -72,7 +69,6 @@ nav a:hover {
 #hero p{    
     font-size: 1vw;
     letter-spacing: 6px;
-
 }
 
 #desc {
@@ -120,14 +116,12 @@ nav a:hover {
     color: var(--text-effect);
     font-size: 1vw;
     letter-spacing: 4px;
-
 }
-
 
 /* Archive */
 
 #archive {
-    padding: 130px 2vw 140px 2vw;
+    padding: 120px 2vw;
 }
 
 .archive-meta {
@@ -146,7 +140,7 @@ nav a:hover {
     font-size: 2vw;
     letter-spacing: 2px;
     font-weight: bold; 
-    }
+}
 
 .archive-entry {
     margin-top: 35px;
@@ -193,4 +187,55 @@ nav a:hover {
 
 .archive-entry + .archive-entry {  /* Select archive-entry just after archive entry (aka entry 2,3,4 and so on */
     margin-top: 35px;
+}
+
+/* Contact */
+
+#contact {
+    padding: 120px 2vw;
+}
+
+#contact h2 {
+    border-bottom: 1px solid var(--text-accent);
+    padding-bottom: 15px;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    font-weight: bold; 
+}
+
+.contact-content {
+    margin-top: 50px;
+}
+
+.contact-content p {
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.contact-links {
+    display: flex;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+.contact-links a {
+    color: var(--text-primary);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.contact-links a:hover {
+    color: var(--text-effect);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    color: var(--text-effect);
+    font-size: 0.75vw;
+    letter-spacing: 2px;
 }
