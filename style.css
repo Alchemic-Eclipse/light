@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap'); 
+
 :root {
-    --background: #080808;
+    --background: #060606;
     --text-primary: #FDF4DC;
     --text-secondary: #E0DCD3;
     --text-effect: #9C978B;
@@ -18,7 +20,7 @@ body {
     background-color: var(--background);
     color: var(--text-primary);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
 }
 
 /* Navigation */
@@ -67,6 +69,8 @@ nav a:hover {
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.8s ease, transform 0.8s ease;
+
+    position: relative;
 }
 
 #hero.loaded {
@@ -74,18 +78,44 @@ nav a:hover {
     transform: translateY(0);
 }
 
+.hero-figure {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70vh;
 
-#hero h1{
-    font-size: 3vw;
+    z-index: 1;
+    pointer-events: none;
+
+    transform: scaleX(-1);
+    opacity: 0.9;
+
+    margin-bottom: -4px;
+}
+
+.hero-title {
+    font-size: 5vw;
+
+    position: relative;
+    z-index: 2;
+
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: -10px;
 }
 
 #hero p{    
-    font-size: 1vw;
-    letter-spacing: 6px;
+    font-size: 1.15vw;
+    letter-spacing: 5px;
+
+    position: relative;
+    z-index: 2;
 }
 
 #desc {
-    padding-top: 6px;
+    padding-top: 13px;
     letter-spacing: 5px;
     color: var(--text-effect);
 } 
@@ -99,7 +129,7 @@ nav a:hover {
 #about h2 {
     border-bottom: 1px solid var(--text-accent);
     padding-bottom: 15px;
-    font-size: 2vw;
+    font-size: 2.2vw;
     letter-spacing: 2px;
     font-weight: bold; 
 }
@@ -127,9 +157,12 @@ nav a:hover {
     gap: 14px;
 
     color: var(--text-effect);
-    font-size: 1vw;
+    font-size: 1.15vw;
     letter-spacing: 4px;
+
+    margin-top: -15px;
 }
+
 
 /* Archive */
 
@@ -150,7 +183,7 @@ nav a:hover {
 #archive h2 {
     border-bottom: 1px solid var(--text-accent);
     padding-bottom: 15px;
-    font-size: 2vw;
+    font-size: 2.2vw;
     letter-spacing: 2px;
     font-weight: bold; 
 }
@@ -162,7 +195,7 @@ nav a:hover {
 }
 
 .archive-entry h3 {
-    font-size: 1.9vw;
+    font-size: 1.98vw;
     margin-top: 25px;
 }
 
@@ -211,7 +244,7 @@ nav a:hover {
 #contact h2 {
     border-bottom: 1px solid var(--text-accent);
     padding-bottom: 15px;
-    font-size: 2vw;
+    font-size: 2.2vw;
     letter-spacing: 2px;
     font-weight: bold; 
 }
