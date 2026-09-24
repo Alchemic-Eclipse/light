@@ -21,11 +21,6 @@ body {
     font-size: 1.1vw;
 }
 
-::selection {
-    color: white;
-    background-color: #302E2A;
-}
-
 /* Navigation */
 
 nav {
@@ -39,6 +34,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 27px 30px;
+
+    z-index: 1000; /* Fixing Hero animation bug */
 }
 
 nav a {
@@ -66,7 +63,17 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     height: 100vh;
+
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
+#hero.loaded {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 #hero h1{
     font-size: 3vw;
@@ -309,4 +316,15 @@ footer {
         letter-spacing: 2px;
         gap: 8px;
     }
+}
+
+/* Extra Effects */
+
+::selection {
+    color: white;
+    background-color: #302E2A;
+}
+
+html {
+    scroll-behavior: smooth;
 }
