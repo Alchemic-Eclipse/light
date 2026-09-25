@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap'); 
 
 :root {
-    --background: #060606;
+    --background: #060606;      /* If changed, please also change nav color */
     --text-primary: #FDF4DC;
     --text-secondary: #E0DCD3;
     --text-effect: #9C978B;
@@ -32,7 +32,7 @@ nav {
     right: 0;
 
     display:flex;
-    background-color: #08080899;
+    background-color: #06060699;
     justify-content: space-between;
     align-items: center;
     padding: 27px 30px;
@@ -364,4 +364,11 @@ footer {
 
 html {
     scroll-behavior: smooth;
+}
+
+#snow {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2;
 }
