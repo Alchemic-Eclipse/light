@@ -104,6 +104,9 @@ nav a:hover {
     font-style: normal;
 
     margin-bottom: -10px;
+
+    text-decoration: none;
+    color: var(--text-primary);
 }
 
 #hero p{    
