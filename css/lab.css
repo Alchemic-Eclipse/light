@@ -12,3 +12,24 @@
 
     --snow-color: rgba(180, 235, 255, 0.8);
 }
+
+#hero p{
+    letter-spacing: 4px;
+}
+
+#desc {
+    padding-top: 14px;
+    letter-spacing: 40px;
+}
+
+#unfinished {
+    padding: 120px 2vw;
+}
+
+#unfinished h2 {
+    border-bottom: 1px solid var(--text-accent);
+    padding-bottom: 15px;
+    font-size: 2.2vw;
+    letter-spacing: 2px;
+    font-weight: bold; 
+}

@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap'); 
 
-@view-transition {
-    navigation: auto;
-}
-
 :root {
     --background: #060606;      /* If changed, please also change nav color */
     --text-primary: #FDF4DC;
@@ -72,17 +68,8 @@ nav a:hover {
     justify-content: center;
     height: 100vh;
 
-    /* opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.8s ease, transform 0.8s ease; */
-
     position: relative;
 }
-/* 
-#hero.loaded {
-    opacity: 1;
-    transform: translateY(0);
-} */
 
 .hero-figure {
     position: absolute;
@@ -114,7 +101,6 @@ nav a:hover {
     text-decoration: none;
     color: var(--text-primary);
 
-    view-transition-name: light-title;      /* Treat him separately from rest of page during transition */
 }
 
 #hero p{    
@@ -382,4 +368,87 @@ html {
     inset: 0;
     pointer-events: none;
     z-index: 2;
+}
+
+/* Title glitching while leaving homepage */
+.hero-title.transition-out {
+    animation: title-out 0.65s steps(4, end) forwards;
+}
+
+/* Lab title glitching while appearing */
+.lab-page .hero-title.transition-in {
+    animation: title-in 0.85s steps(4, end) forwards;
+}
+
+/* Hide Lab title before JS starts entrance animation */
+.lab-page .hero-title {
+    opacity: 0;
+}
+
+/* Outgoing title rapid shifts and dissappearing */
+@keyframes title-out {
+    0% {
+        opacity: 1;
+        transform: translateX(0) skewX(0deg);
+        filter: blur(0);
+    }
+
+    20% {
+        transform: translateX(-3px) skewX(-2deg);
+        filter: blur(0.3px);
+    }
+
+    40% {
+        transform: translateX(4px) skewX(3deg);
+        filter: blur(0.8px);
+    }
+
+    60% {
+        transform: translateX(-5px) skewX(-4deg);
+        filter: blur(1.5px);
+    }
+
+    80% {
+        opacity: 0.35;
+        transform: translateX(3px) scaleX(0.98);
+        filter: blur(3px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(0) scaleX(0.96);
+        filter: blur(7px);
+    }
+}
+
+@keyframes title-in {
+    0% {
+        opacity: 0;
+        transform: translateX(4px) skewX(4deg);
+        filter: blur(7px);
+    }
+
+    25% {
+        opacity: 0.3;
+        transform: translateX(-4px) skewX(-3deg);
+        filter: blur(3px);
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: translateX(3px) skewX(2deg);
+        filter: blur(1.5px);
+    }
+
+    75% {
+        opacity: 0.85;
+        transform: translateX(-2px) skewX(-1deg);
+        filter: blur(0.5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0) skewX(0deg);
+        filter: blur(0);
+    }
 }

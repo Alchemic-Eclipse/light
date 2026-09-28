@@ -134,5 +134,102 @@ function animate() {
 
 animate();
 
+// Animation
+
+const heroTitle = document.querySelector(".hero-title")
+
+let transitioning = false;
+
+// Only continue if hero-title exist on page
+if (heroTitle) {
+
+    // Is hero-title Light (aka is it homepage?)
+    const isHeroTitle = heroTitle.textContent.trim() === "Light";
+
+    if (isHeroTitle) {
+
+        heroTitle.addEventListener("click", (event) => {
+
+            // Don't navigate immediately
+            event.preventDefault();
+
+            // If Transitioning, ignore additional clicks
+            if (transitioning) return;
+
+            transitioning = true;
+
+            // Store homepage url we're going to
+            const destination = heroTitle.href;
+
+
+            const glitchStates = [
+                "Light",
+                "Li#ht",
+                "L!gΔt",
+                "L█g?t",
+                "░▒▓"
+            ];
+
+            // Start animation
+            heroTitle.classList.add("transition-out");
+
+            // Keep track of which corrupted state is being showed
+            let state = 0;
+
+            // Change title repeatedly during glitch
+            const glitchInterval = setInterval(() => {
+
+                // Replace title w corrupted version
+                heroTitle.textContent = glitchStates[state];
+                state++;
+
+                // Stop once final state has appeared
+                if (state >= glitchStates.length) {
+                    clearInterval(glitchInterval);
+                }
+
+            }, 110);
+
+            // Navigate to lab after animation's done
+            setTimeout(() => {
+                window.location.href = destination;
+            }, 650);
+            
+        });
+    }   
+}
+
+
+// Only run the entrance animation on lab page
+if (heroTitle && document.body.classList.contains("lab-page")) {
+
+    const labGlitchStates = [
+        "░▒▓",
+        "L█g?t's LΔb",
+        "L!gΔt's L?b",
+        "Li#ht's Lab",
+        "Light's LΔb",
+        "Light's Lab"
+    ] 
+
+    let state = 0;
+
+    heroTitle.classList.add("transition-in");
+
+    // Start w first corrupted state 
+    heroTitle.textContent = labGlitchStates[state];
+
+    // Advance through it
+    const labGlitchInterval = setInterval(() => {
+        state++;
+        heroTitle.textContent = labGlitchStates[state];
+
+        // Stop if final state has appeared
+        if (state >= labGlitchStates.length - 1) {
+            clearInterval(labGlitchInterval);
+        }
+    }, 130);
+
+}
 
 console.log("All good");
