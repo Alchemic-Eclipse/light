@@ -1,0 +1,14 @@
+
+@view-transition {
+    navigation: auto;
+}
+
+:root {
+    --background: #05080C;     
+    --text-primary: #E8F8FF;
+    --text-secondary: #C7E3EE;
+    --text-effect: #75AFC4;
+    --text-accent: #3A6373;
+
+    --snow-color: rgba(180, 235, 255, 0.8);
+}

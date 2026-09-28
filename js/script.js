@@ -1,14 +1,5 @@
 history.scrollRestoration = "manual"; // Do not remember position before refresh (fixes glitch)
 
-// Animation 
-
-const hero = document.querySelector("#hero");
-
-window.addEventListener("load", () => {
-    hero.classList.add("loaded");
-});
-
-
 // Glitch Effect
 
 const desc = document.querySelector("#hero p");     // TODO: it to #desc after Handwriting SVG is added
@@ -74,7 +65,9 @@ function drawSnowflake(x, y, size) {
 
     ctx.beginPath();    
     ctx.arc(x, y, size, 0, Math.PI * 2);            // Draw a circle
-    ctx.fillStyle = "rgba(253, 244, 220, 0.8)";   // Set its color & opacity
+
+    const snowColor = getComputedStyle(document.documentElement).getPropertyValue("--snow-color").trim();
+    ctx.fillStyle = snowColor;                      // Set its color & opacity
     ctx.fill();                                     // Fill the circle
 
 }

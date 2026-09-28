@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap'); 
 
+@view-transition {
+    navigation: auto;
+}
+
 :root {
     --background: #060606;      /* If changed, please also change nav color */
     --text-primary: #FDF4DC;
     --text-secondary: #E0DCD3;
     --text-effect: #9C978B;
     --text-accent: #615E58;
+
+    --snow-color: rgba(253, 244, 220, 0.8);
 }
 
 /* Reset */
@@ -66,17 +72,17 @@ nav a:hover {
     justify-content: center;
     height: 100vh;
 
-    opacity: 0;
+    /* opacity: 0;
     transform: translateY(10px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transition: opacity 0.8s ease, transform 0.8s ease; */
 
     position: relative;
 }
-
+/* 
 #hero.loaded {
     opacity: 1;
     transform: translateY(0);
-}
+} */
 
 .hero-figure {
     position: absolute;
@@ -107,6 +113,8 @@ nav a:hover {
 
     text-decoration: none;
     color: var(--text-primary);
+
+    view-transition-name: light-title;      /* Treat him separately from rest of page during transition */
 }
 
 #hero p{    
