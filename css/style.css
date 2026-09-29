@@ -547,3 +547,11 @@ html {
         filter: blur(0);
     }
 }
+
+/* New pages */
+
+#about h2 a,
+#archive h2 a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,136 @@
+:root {
+    --background: #0A0607;
+    --text-primary: #F7E9EA;
+    --text-secondary: #DFBEC2;
+    --text-effect: #B56E79;
+    --text-accent: #5D323A;
+    --snow-color: rgba(247, 233, 234, 0.8);
+}
+
+nav {
+    background-color: #0A060799;
+}
+
+::selection {
+    color: #F7E9EA;
+    background-color: #211014;
+}
+
+/* About Section */
+
+.about-section {
+    padding: 120px 2vw;
+}
+
+.about-section h2 {
+    border-bottom: 1px solid var(--text-accent);
+    padding-bottom: 15px;
+    font-size: 2.2vw;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Profile Facts */
+
+.about-facts {
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+.about-fact {
+    display: flex;
+    gap: 60px;
+    align-items: baseline;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--text-accent);
+}
+
+.about-fact span {
+    min-width: 150px;
+    color: var(--text-effect);
+    font-size: 0.8vw;
+    letter-spacing: 2px;
+}
+
+.about-fact p {
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* General content */
+
+.about-content {
+    max-width: 1100px;
+    margin-top: 50px;
+}
+
+.about-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.about-content p + p {
+    margin-top: 25px;
+}
+
+/* Inspirations */
+
+.inspiration-line {
+    font-size: 1.25vw;
+    letter-spacing: 3px;
+    color: var(--text-primary) !important;
+}
+
+/* Chasing */
+
+.chasing-content {
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+.chasing-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 1.25vw;
+}
+
+.chasing-content p + p {
+    margin-top: 25px;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    
+    .about-section {
+        padding: 110px 2vw;
+    }
+
+    .about-section h2 {
+        font-size: 5.5vw;
+    }
+
+    .about-fact {
+        display: block;
+    }
+
+    .about-fact span {
+        display: block;
+        min-width: 0;
+        font-size: 3vw;
+    }
+
+    .about-fact p {
+        margin-top: 10px;
+    }
+
+    .inspiration-line {
+        font-size: 3.2vw;
+        letter-spacing: 2px;
+    }
+
+    .chasing-content p {
+        font-size: 4vw;
+    }
+
+}
