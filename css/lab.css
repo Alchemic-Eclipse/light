@@ -167,7 +167,7 @@ nav {
     min-width: 220px;
     color: var(--text-effect);
     letter-spacing: 2px;
-    font-size: 0.8vw;
+    font-size: 0.999vw;
 }
 
 .now-item p {
