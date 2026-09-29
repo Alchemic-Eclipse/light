@@ -101,6 +101,9 @@ nav a:hover {
     text-decoration: none;
     color: var(--text-primary);
 
+    display: inline-block;
+    padding-right: 0.3em;
+
 }
 
 #hero p{    

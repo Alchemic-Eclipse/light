@@ -219,3 +219,10 @@ nav {
 .curiosity-entry + .curiosity-entry {
     margin-top: 35px;
 }
+
+/* Extra Effects */
+
+::selection {
+    color: #E8F8FF;
+    background-color: #0B1D24;
+}
