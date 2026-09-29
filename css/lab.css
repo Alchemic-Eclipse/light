@@ -80,3 +80,63 @@ nav {
 .unfinished-entry + .unfinished-entry {
     margin-top: 35px;
 }
+
+/* Graveyard */
+
+#graveyard {
+    padding: 120px 2vw;
+}
+
+#graveyard h2 {
+    border-bottom: 1px solid var(--text-accent);
+    padding-bottom: 15px;
+    font-size: 2.2vw;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.graveyard-entry {
+    margin-top: 35px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--text-accent);
+}
+
+.graveyard-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    color: var(--text-effect);
+    letter-spacing: 2px;
+    font-size: 0.8vw;
+}
+
+.graveyard-entry h3 {
+    font-size: 1.98vw;
+    margin-top: 25px;
+}
+
+.graveyard-subtitle {
+    font-size: 1vw;
+    letter-spacing: 4px;
+    color: var(--text-secondary);
+    margin-top: 8px;
+}
+
+.graveyard-tags {
+    font-size: 0.8vw;
+    color: var(--text-effect);
+    letter-spacing: 2px;
+    margin-top: 18px;
+}
+
+.graveyard-description {
+    margin-top: 25px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.graveyard-entry + .graveyard-entry {
+    margin-top: 35px;
+}
+

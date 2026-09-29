@@ -353,6 +353,8 @@ footer {
 
     /* LAB */
 
+    /* Unfinished */
+
     #unfinished {
         padding: 110px 2vw;
     }
@@ -374,6 +376,28 @@ footer {
     }
 
     .unfinished-tags {
+        font-size: 3vw;
+    }
+
+    /* Graveyard */
+
+    #graveyard {
+        padding: 110px 2vw;
+    }
+
+    #graveyard h2 {
+        font-size: 5.5vw;
+    }
+
+    .graveyard-meta {
+        font-size: 3vw;
+    }
+
+    .graveyard-entry h3 {
+        font-size: 6vw;
+    }
+
+    .graveyard-tags {
         font-size: 3vw;
     }
 }
