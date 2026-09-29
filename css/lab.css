@@ -140,3 +140,38 @@ nav {
     margin-top: 35px;
 }
 
+/* NOW */
+
+#now {
+    padding: 120px 2vw;
+}
+
+#now h2 {
+    border-bottom: 1px solid var(--text-accent);
+    padding-bottom: 15px;
+    font-size: 2.2vw;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.now-item {
+    display: flex;
+    align-items: baseline;
+    gap: 60px;
+    margin-top: 33px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid var(--text-accent);;
+}
+
+.now-item span {
+    min-width: 220px;
+    color: var(--text-effect);
+    letter-spacing: 2px;
+    font-size: 0.8vw;
+}
+
+.now-item p {
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+

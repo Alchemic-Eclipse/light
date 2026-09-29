@@ -400,6 +400,30 @@ footer {
     .graveyard-tags {
         font-size: 3vw;
     }
+
+    /* NOW */
+
+    #now {
+        padding: 110px 2vw;
+    }
+
+    #now h2 {
+        font-size: 5.5vw;
+    }
+
+    .now-item {
+        display: block;
+    }
+
+    .now-item span {
+        display: block;
+        min-width: 0;
+        font-size: 3vw;
+    }
+
+    .now-item p {
+        margin-top: 10px;
+    }
 }
 
 /* Extra Effects */
