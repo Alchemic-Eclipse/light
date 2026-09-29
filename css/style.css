@@ -307,7 +307,7 @@ footer {
         gap: 18px;
     }
 
-    #hero h1 {
+    .hero-title {
         font-size: 8.5vw;
     }
 
@@ -349,6 +349,32 @@ footer {
         font-size: 2.99vw;
         letter-spacing: 2px;
         gap: 8px;
+    }
+
+    /* LAB */
+
+    #unfinished {
+        padding: 110px 2vw;
+    }
+
+    #unfinished h2 {
+        font-size: 5.5vw;
+    }
+
+    .unfinished-meta {
+        font-size: 3vw;
+    }
+
+    .unfinished-entry h3 {
+        font-size: 6vw;
+    }
+
+    .unfinished-subtitle {
+        font-size: 3.2vw;
+    }
+
+    .unfinished-tags {
+        font-size: 3vw;
     }
 }
 
