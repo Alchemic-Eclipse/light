@@ -226,3 +226,111 @@ nav {
     color: #E8F8FF;
     background-color: #0B1D24;
 }
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    #hero p {
+        font-size: 3.2vw;
+        letter-spacing: 3px;
+    }
+
+    #desc {
+        font-size: 2.8vw !important;
+        letter-spacing: 4px !important;
+        padding-top: 10px;
+    }
+
+    #unfinished {
+        padding: 110px 2vw;
+    }
+
+    #unfinished h2 {
+        font-size: 5.5vw;
+    }
+
+    .unfinished-meta {
+        font-size: 3vw;
+    }
+
+    .unfinished-entry h3 {
+        font-size: 6vw;
+    }
+
+    .unfinished-subtitle {
+        font-size: 3.2vw;
+    }
+
+    .unfinished-tags {
+        font-size: 3vw;
+    }
+
+    #graveyard {
+        padding: 110pw 2vw;
+    }
+
+    #graveyard h2 {
+        font-size: 5.5vw;
+    }
+
+    .graveyard-meta {
+        font-size: 3vw;
+    }
+
+    .graveyard-entry h3 {
+        font-size: 6vw;
+    }
+
+    .graveyard-subtitle {
+        padding-top: 6px;
+        font-size: 3.2vw;
+    }
+
+    .graveyard-tags {
+        font-size: 3vw;
+    }
+
+    #now {
+        padding: 110px 2vw;
+    }
+
+    #now h2 {
+        font-size: 5.5vw;
+    }
+
+    .now-item {
+        display: block;
+    }
+
+    .now-item span {
+        display: block;
+        min-width: 0;
+        font-size: 3vw;
+    }
+
+    .now-item p {
+        margin-top: 10px;
+    }
+
+    #curiosities {
+        padding: 110px 2vw;
+    }
+
+    #curiosities h2 {
+        font-size: 5.5vw;
+    }
+
+    .curiosity-meta {
+        font-size: 3vw;
+    }
+
+    .curiosity-entry h3 {
+        font-size: 6vw;
+    }
+
+    .curiosity-description {
+        font-size: 4vw;
+    }
+
+}

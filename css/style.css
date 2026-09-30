@@ -313,6 +313,10 @@ footer {
     .hero-title {
         font-size: 8.5vw;
     }
+    
+    .hero-figure {
+        height: 40vh;
+    }
 
     #hero p {
         font-size: 3.2vw;
