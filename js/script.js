@@ -96,7 +96,7 @@ function resetSnowflake(snowflake) {
 
 const snowflakes = [];
 
-for (let i = 0; i < 80; i++) { 
+for (let i = 0; i < 100; i++) { 
 
     snowflakes.push({
         x: Math.random() * canvas.width,          // Random Horizontal position
