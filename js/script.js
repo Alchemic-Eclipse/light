@@ -261,4 +261,16 @@ if (heroTitle && document.body.classList.contains("lab-page")) {
 
 }
 
+window.addEventListener("pageshow", () => {
+    if (document.body.classList.contains("lab-page")) return;
+
+    const heroTitle = document.querySelector(".hero-title");
+
+    if (heroTitle) {
+        heroTitle.classList.remove("transition-out");
+        heroTitle.textContent = "Light";
+        transitioning = false;
+    }
+});
+
 console.log("All good");
