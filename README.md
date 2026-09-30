@@ -6,15 +6,18 @@
 
 Light is a personal website built as a digital extension of how I think and work. It is less of a conventional portfolio and more of an evolving record of things I'm learning, building, exploring and occasionally abandoning.
 
-## What is here
+## What is Here
 
 **About**
+
 A little more about me, the things I care about, and the strange collection of interests that somehow coexist.
 
 **Archive**
+
 Projects that made it far enough to become something real.
 
 **Lab**
+
 Ideas, experiments, unfinished projects, current obsessions, and questions I'm still trying to answer.
 
 ## Features 
@@ -58,16 +61,14 @@ The site is meant to evolve alongside whatever I'm working on, so new experiment
 
 AI is used while developing Light, for:
 - Debugging code
-- And learnings about animations/effects
+- And learning about animations/effects
 
 That's all :)
 
 ---
 
-## Visit the Site:
+## Visit the Site
 
 It's live on: https://alchemic-eclipse.github.io/light/
 
 And that's it.
-
-    
