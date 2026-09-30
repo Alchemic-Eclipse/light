@@ -234,6 +234,7 @@ nav {
     #hero p {
         font-size: 3.2vw;
         letter-spacing: 3px;
+        margin-top: 7px;
     }
 
     #desc {
