@@ -57,6 +57,26 @@ The site is meant to evolve alongside whatever I'm working on, so new experiment
 
 
 ---
+
+## Possible Future Improvements
+
+Light is live, but there are still things I'm considering...
+
+**Personal imagery**
+
+I haven't added photos of myself yet mainly because of the **privacy and OSINT implications** (;-;). Once personal images are on a public website, they can reveal or contribute to things like facial recognition, reverse-image searches, etc etc, and other information that can be pieced together from seemingly harmless details.
+
+I'm still thinking through how much personal information I actually want the site to expose before adding them.
+
+(yeah,, this is what happens when you spend a considerable time in the field of Cybersecurity, but trust me,, I'm definitely not an MI6 Agent with code 007 and name James Bond 🥀)
+
+**More experiments**
+
+The Lab will probably keep growing as new ideas, projects, and questionable experiments appear.
+
+Nothing here is guaranteed. I'm still thinking about it :)
+
+---
 ## AI Usage
 
 AI is used while developing Light, for:
