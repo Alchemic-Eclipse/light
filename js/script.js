@@ -52,6 +52,15 @@ if (desc) {
 
 };    
 
+// Track mouse
+
+let mouseX = -1000;
+let mouseY = -1000;
+
+document.addEventListener("mousemove", (event) => {
+    mouseX = event.clientX;
+    mouseY = event.clientY;
+});
 
 // Snow Effect
 
@@ -125,6 +134,21 @@ function drawSnow() {
         }
 
         drawSnowflake(snowflake.x, snowflake.y, snowflake.size);
+
+
+        const dx = snowflake.x - mouseX;
+        const dy = snowflake.y - mouseY;
+
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        const interactionRadius = 80;
+
+        if (distance > 0 && distance < interactionRadius) {
+            const force = (interactionRadius - distance) /interactionRadius;
+
+            snowflake.x += (dx / distance) * force * 2;
+            snowflake.y += (dy / distance) * force * 2;
+        }       
 
     }
 
