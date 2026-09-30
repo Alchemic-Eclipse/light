@@ -7,6 +7,11 @@
     --snow-color: rgba(247, 233, 234, 0.8);
 }
 
+body {
+    font-size: 1.4vw;
+}
+
+
 nav {
     background-color: #0A060799;
 }
@@ -34,21 +39,23 @@ nav {
 
 .about-facts {
     max-width: 900px;
-    margin-top: 50px;
+    margin-top: 33px;
 }
 
 .about-fact {
     display: flex;
     gap: 60px;
     align-items: baseline;
-    padding: 16px 0;
+    /* padding: 16px 0; */
+    margin-top: 33px;
+    padding-bottom: 33px;
     border-bottom: 1px solid var(--text-accent);
 }
 
 .about-fact span {
     min-width: 150px;
     color: var(--text-effect);
-    font-size: 0.8vw;
+    font-size: 0.999vw;
     letter-spacing: 2px;
 }
 
@@ -61,7 +68,7 @@ nav {
 
 .about-content {
     max-width: 1100px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .about-content p {
@@ -70,7 +77,7 @@ nav {
 }
 
 .about-content p + p {
-    margin-top: 25px;
+    margin-top: 55px;
 }
 
 /* Inspirations */
@@ -91,7 +98,7 @@ nav {
 .chasing-content p {
     color: var(--text-secondary);
     line-height: 1.6;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
 }
 
 .chasing-content p + p {
