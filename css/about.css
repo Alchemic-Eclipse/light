@@ -49,9 +49,8 @@ nav {
     position: absolute;
     right: 0;
     
-    /* Adjust these values to control how far up or down the line extends */
-    top: -80px;    /* Extends 30px upward past the element */
-    bottom: -330px; /* Extends 30px downward past the element */
+    top: -80px;    /* Extends 80px upward past the element */
+    bottom: -330px; /* Extends 330px downward past the element */
     
     width: 1px;
     background-color: var(--text-accent);
@@ -133,8 +132,8 @@ nav {
     position: absolute;
     bottom: 0;       /* 1. Anchors line to the bottom */
     
-    left: 0px;     /* Extends 80px to the left */
-    right: -30px;   /* Extends 330px to the right */
+    left: 0px;     /* Extends 0px to the left */
+    right: -30px;   /* Extends 30px to the right */
     
     height: 1px;     /* 2. Controls line thickness (changed from width) */
     background-color: var(--text-accent);
@@ -154,8 +153,8 @@ nav {
     position: absolute;
     right: 0;
     
-    top: -460px;    /* Extends 30px upward past the element */
-    bottom: -500px; /* Extends 30px downward past the element */
+    top: -460px;    /* Extends 460px upward past the element */
+    bottom: -500px; /* Extends 500px downward past the element */
     
     width: 1px;
     background-color: var(--text-accent);

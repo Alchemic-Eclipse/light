@@ -89,7 +89,7 @@ function drawSnowflake(x, y, size) {
 // Give a flake a new starting position
 function resetSnowflake(snowflake) {
 
-    const spawnFromRight = Math.random() < 0.3;    // 50% chance to use right edge
+    const spawnFromRight = Math.random() < 0.3;    // 30% chance to use right edge
 
     if (spawnFromRight) {
 
