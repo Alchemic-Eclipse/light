@@ -60,9 +60,9 @@ The site is meant to evolve alongside whatever I'm working on, so new experiment
 
 ## Walkthrough
 
-A walkthrough video, because why not? (lol jk,,, it's to give you a glimpse of different sections and features)
+A walkthrough video, because why not? (lol jk,,, it's to give you a glimpse of different sections and features of my site,,, and to make sure you don't miss any :))
 
-[🎥 Watch the Light walkthrough](assets/walkthrough.mov)
+[🎥 Watch the Light walkthrough](assets/walkthrough.mp4)
 
 ---
 
