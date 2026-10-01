@@ -31,6 +31,19 @@ Ideas, experiments, unfinished projects, current obsessions, and questions I'm s
 
 That's why it took me soooo much time to complete this project... I was paying attention to every single atomic design improvement I could make to improve the UI/UX, while testing everything like an over-caffeinated squirrel lol...
 
+For example:
+This is just one of the many examples I could use, but the entrance to Light's Lab is through **“Light”** in the homepage's hero section..
+
+The Lab is one of the unique features of the site.. It shows the workings of my mind: the thoughts, ideas, experiments, questions, and everything else currently occupying it...
+
+So,,,, to enter my mind, you'll have to enter through me. 
+
+In other words, to enter **Light's mind**, you need to enter through **Light himself**.
+
+This detail is particularly meaningful to me because I spent hours debating where the entrance to the Lab should be, and built several different prototypes before settling on this.
+
+And as said,, manyyyy more things like this :)
+
 ## Built with 
 
 HTML · CSS · JavaScript
