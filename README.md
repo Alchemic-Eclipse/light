@@ -4,7 +4,7 @@
 
 > A personal space for polymathy, physics, computing, and whatever else becomes interesting enough to understand.
 
-Light is a personal website built as a digital extension of how I think and work. It is less of a conventional portfolio and more of an evolving record of things I'm learning, building, exploring and occasionally abandoning.
+Light is a minimalist personal website built as a digital extension of how I think and work. It is less of a conventional portfolio and more of an evolving record of things I'm learning, building, exploring and occasionally abandoning.
 
 ## What is Here
 

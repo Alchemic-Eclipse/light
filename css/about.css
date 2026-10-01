@@ -13,7 +13,7 @@ body {
 
 
 nav {
-    background-color: #0A060799;
+    background-color: #03010199;
 }
 
 ::selection {
@@ -38,9 +38,9 @@ nav {
 /* Profile Facts */
 
 .about-facts {
-    max-width: 900px;
+    max-width: 1074px;
     margin-top: 33px;
-
+    /* padding-right: 10px; */
     position: relative;
 }
 
@@ -76,6 +76,16 @@ nav {
 .about-fact p {
     color: var(--text-secondary);
     line-height: 1.5;
+}
+
+.secret-status {
+    cursor: pointer;
+    color: var(--text-effect);
+    font-size: 1.5vw !important;
+}
+
+.secret-status:hover {
+    color: var(--text-secondary);
 }
 
 /* General content */
