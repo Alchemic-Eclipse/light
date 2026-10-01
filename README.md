@@ -29,6 +29,8 @@ Ideas, experiments, unfinished projects, current obsessions, and questions I'm s
 - Glitch-based transitions and text effects
 - Responsive layout for smaller screens
 
+That's why it took me soooo much time to complete this project... I was paying attention to every single atomic design improvement I could make to improve the UI/UX, while testing everything like an over-caffeinated squirrel lol...
+
 ## Built with 
 
 HTML · CSS · JavaScript
@@ -55,6 +57,12 @@ The site is meant to evolve alongside whatever I'm working on, so new experiment
 
 ![Light About page](assets/about.png)
 
+
+## Walkthrough
+
+A walkthrough video, because why not? (lol jk,,, it's to give you a glimpse of different sections and features)
+
+[🎥 Watch the Light walkthrough](assets/walkthrough.mov)
 
 ---
 
